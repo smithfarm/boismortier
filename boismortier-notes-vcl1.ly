@@ -86,11 +86,11 @@ vclOneMvtTwo = \relative {
         % 1
         e4 a,8 c h d |
         % 2
-        c h c a e'4( |
+        c h c a e'4( | \break
         % 3
-        e) d8 c h a | \break
+        e) d8 c h a |
         % 4
-        gis4\trill e h' |
+        gis4\trill e h' | \break
         % 5
         c8 h c h a c |
         % 6
@@ -98,7 +98,7 @@ vclOneMvtTwo = \relative {
         % 7
         a h a g fis a |
         % 8
-        g fis g a h4 |
+        g fis g a h4 | \break
         % 9
         c fis,4.\trill e8 |
         % 10

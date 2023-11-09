@@ -80,7 +80,7 @@ vclThreeMvtTwo = \relative {
         % 1
         a4 a, gis' |
         % 2
-        a a, gis' |
+        a a, gis' | \break
         % 3
         a d,8 e f d |
         % 4
@@ -88,11 +88,11 @@ vclThreeMvtTwo = \relative {
         % 5
         a,2 d4 |
         % 6
-        g,2 g'4 |
+        g,2 g'4 | \break
         % 7
         dis2\trill h4 |
         % 8
-        e2 e4 |
+        e2 e4 | \break
         % 9
         a,4 h2 |
         % 10

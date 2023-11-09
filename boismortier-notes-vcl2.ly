@@ -83,37 +83,66 @@ vclTwoMvtTwo = \relative {
     \key c \major
     \repeat volta 2 {
         \partial 4 r4 |
+        % 1
         r r r8. e'16 |
-        e4 a,8 c h d |
-        c4 f8 e d c | 
+        % 2
+        e4 a,8 c h d | \break
+        % 3
+        c4 f8 e d c |
+        % 4
         h2\trill gis4 | \break
+        % 5
         a8 g? a g fis a |
-        g a g fis e g |
-        fis g fis e dis fis | \break
-        e gis e fis g4 |
+        % 6
+        g a g fis e g | \break
+        % 7
+        fis g fis e dis fis |
+        % 8
+        e gis e fis g4 | \break
+        % 9
         fis8\mordent e dis4.\trill e8 |
+        % 10
         e2 \break
     }
     \repeat volta 2 {
         \partial 4 r4 |
+        % 11
         r4 r4 r8. g16 |
+        % 12
         g4 c,8 e d f |
-        e4 a8 g f e |
+        % 13
+        e4 a8 g f e | \break
+        % 14
         d2\trill r4 |
-        r4 a'8 b a b | \break
+        % 15
+        r4 a'8 b a b |
+        % 16
         a g f4 e |
-        f8 e d e f4 |
+        % 17
+        f8 e d e f4 | \break
+        % 18
         e8 d cis4.\trill d8 |
+        % 19
         d2 r4 |
-        r4 e'8 f e f | \break
-        e d c4 h |
+        % 20
+        r4 e'8 f e f |
+        % 21
+        e d c4 h | \break
+        % 22
         c8 h a4 c |
+        % 23
         d2 g,4 |
+        % 24
         c8 d h4.\trill c8 |
+        % 25
         c4 c8 d c h | \break
+        % 26
         a4 a h |
+        % 27
         gis a e |
+        % 28
         f d8 e f4 |
+        % 29
         h,2\trill c'4 |
         % 30
         c2 h4 | \break
@@ -131,9 +160,13 @@ vclTwoMvtTwo = \relative {
         c2 h4 |
         % 37
         c8 d c h a c | \break
+        % 38
         h c h a gis h |
+        % 39
         a gis a h c4 |
+        % 40
         h8\mordent a gis4.\trill a8 |
+        % 41
         a2
     }
 }
