@@ -29,43 +29,45 @@ vclThreeMvtOne = \relative {
         % 11 
         a8. g!16 f4\trill e2 | \break
     }
-    \compressMMRests {
-        R1*2
+    \repeat volta 2 {
+        \compressMMRests {
+            R1*2
+        }
+        % 14
+        c4 g' e16 f g8 cis,8 a |
+        % 15
+        d d a' a, d4 r8 d8 | \break
+        % 16
+        g4 r8 g8 c,4 r8 c8 |
+        % 17
+        f4 r8 d8 e4 r8 gis, |
+        % 18
+        a e' f d e c d h | \break
+        % 19
+        c a h g c4 a |
+        % 20
+        h8 h'( h16) c a h gis8 e gis e | \break
+        % 21
+        a a, cis a d d fis d |
+        % 22
+        g g, h g c c e c | \break
+        % 23
+        f4 d e8 d c a |
+        % 24
+        f'16 g f e d c h a gis4 r8 gis8 | \break
+        % 25
+        a d e e, a4 r8 gis'8 |
+        % 26
+        a gis a gis a a, r g' | \break
+        % 27
+        a h16 a gis8\mordent fis16 gis a8 his16 a gis8\mordent fis16 g |
+        % 28
+        a8 a gis a e d c a | \break
+        % 29
+        f'!16 g! f e d c h a gis4 r8 gis8 |
+        % 30
+        a d e e, a2
     }
-    % 14
-    c4 g' e16 f g8 cis,8 a |
-    % 15
-    d d a' a, d4 r8 d8 | \break
-    % 16
-    g4 r8 g8 c,4 r8 c8 |
-    % 17
-    f4 r8 d8 e4 r8 gis, |
-    % 18
-    a e' f d e c d h | \break
-    % 19
-    c a h g c4 a |
-    % 20
-    h8 h'( h16) c a h gis8 e gis e | \break
-    % 21
-    a a, cis a d d fis d |
-    % 22
-    g g, h g c c e c | \break
-    % 23
-    f4 d e8 d c a |
-    % 24
-    f'16 g f e d c h a gis4 r8 gis8 | \break
-    % 25
-    a d e e, a4 r8 gis'8 |
-    % 26
-    a gis a gis a a, r g' | \break
-    % 27
-    a h16 a gis8\mordent fis16 gis a8 his16 a gis8\mordent fis16 g |
-    % 28
-    a8 a gis a e d c a | \break
-    % 29
-    f'!16 g! f e d c h a gis4 r8 gis8 |
-    % 30
-    a d e e, a2 \bar "|."
 }
 
 vclThreeMvtTwo = \relative {
@@ -75,59 +77,92 @@ vclThreeMvtTwo = \relative {
     \key c \major
     \repeat volta 2 {
         \partial 4 r8. a16 |
+        % 1
         a4 a, gis' |
+        % 2
         a a, gis' |
+        % 3
         a d,8 e f d |
+        % 4
         e4 gis e | \break
+        % 5
         a,2 d4 |
+        % 6
         g,2 g'4 |
+        % 7
         dis2\trill h4 |
+        % 8
         e2 e4 |
+        % 9
         a,4 h2 |
+        % 10
         e \break
     }
-    \partial 4 r8. c16 |
-    c2 h4 |
-    c c h |
-    c4. c8 h c |
-    g4 h h |
-    c cis cis | \break
-    % 16
-    d2 cis4 |
-    % 17
-    d2 d4 |
-    % 18
-    g,4 a2 |
-    % 19
-    d4 fis fis |
-    % 20
-    g gis gis |
-    % 21
-    a2 gis4 | \break
-    % 22
-    a a a | 
-    % 23
-    h h c |
-    % 23
-    f, g g, |
-    c2 c4 |
-    f2 d4 |
-    e a,8 h c a | \break
-    d2 d4 |
-    e2 a4 |
-    d,2 g4 |
-    c,2 c4 |
-    gis'2 e4 |
-    a,2 a'4 |
-    d, e e, |
-    % 35
-    a2 a'4_\markup { \italic "Doux" } |
-    d,2 g4 |
-    c,2 c4 |
-    gis'2 e4 |
-    a,2 a'4 |
-    d, e e, |
-    a2 \bar "|."
+    \repeat volta 2 {
+        \partial 4 r8. c16 |
+        % 11
+        c2 h4 |
+        % 12
+        c c h |
+        % 13
+        c4. c8 h c |
+        % 14
+        g4 h h |
+        % 15
+        c cis cis | \break
+        % 16
+        d2 cis4 |
+        % 17
+        d2 d4 |
+        % 18
+        g,4 a2 |
+        % 19
+        d4 fis fis |
+        % 20
+        g gis gis |
+        % 21
+        a2 gis4 | \break
+        % 22
+        a a a | 
+        % 23
+        h h c |
+        % 24
+        f, g g, |
+        % 25
+        c2 c4 |
+        % 26
+        f2 d4 |
+        % 27
+        e a,8 h c a | \break
+        % 28
+        d2 d4 |
+        % 29
+        e2 a4 |
+        % 30
+        d,2 g4 |
+        % 31
+        c,2 c4 |
+        % 32
+        gis'2 e4 |
+        % 33
+        a,2 a'4 |
+        % 34
+        d, e e, | \break
+        % 35
+        a2 a'4_\markup { \italic "Doux" } |
+        % 36
+        d,2 g4 |
+        % 37
+        c,2 c4 |
+        % 38
+        gis'2 e4 |
+        % 39
+        a,2 a'4 |
+        % 40
+        d, e e, |
+        % 41
+        a2
+    }
 }
 
 vclThreeMvtThree = \relative {
@@ -238,86 +273,88 @@ vclThreeMvtFour = \relative {
         % 19
         c4.( c4) \break
     }
-    \partial 8 c8 |
-    % 20
-    cis4 cis8 cis4 a8 |
-    % 21
-    d4 e8 f4 d8 |
-    % 22
-    cis4. d4. | \break
-    % 23
-    a4.( a4) a'8 |
-    % 24
-    f( e) d cis4 a8 |
-    % 25
-    d4.( d4) a'8 |
-    % 26
-    d,4.( d4) a'8 | \break
-    % 27
-    d,4.( d4) cis8 |
-    % 28
-    d4 g,8 a4 a8 |
-    % 29
-    d( e) d c( d) c | \break
-    % 30
-    h4. r8 r8 h |
-    % 31
-    c4.( c4) c8 |
-    % 32
-    c4. e4. |
-    % 33
-    f4. r8 r8 d8 | \break
-    % 34
-    d4 e8 f4 d8 |
-    % 35
-    e4. r4. |
-    % 36
-    r2. |
-    % 37
-    r8 r8 e'8 e4 d8 | \break
-    % 38
-    c( h) a gis( fis) e |
-    % 39
-    a4. e4. |
-    % 40
-    a,4 a'8 fis( e) d |
-    % 41
-    g,4 g8 g4 g8 | \break
-    % 42
-    a4 a8 h4 h8 |
-    % 43
-    e4. dis4. |
-    % 44
-    e4. d!4. |
-    % 45
-    g,4. r8 r8 g | \break
-    % 46
-    a4. h4. |
-    % 47
-    e2. |
-    \compressMMRests {
-        R2.*4
+    \repeat volta 2 {
+        \partial 8 c8 |
+        % 20
+        cis4 cis8 cis4 a8 |
+        % 21
+        d4 e8 f4 d8 |
+        % 22
+        cis4. d4. | \break
+        % 23
+        a4.( a4) a'8 |
+        % 24
+        f( e) d cis4 a8 |
+        % 25
+        d4.( d4) a'8 |
+        % 26
+        d,4.( d4) a'8 | \break
+        % 27
+        d,4.( d4) cis8 |
+        % 28
+        d4 g,8 a4 a8 |
+        % 29
+        d( e) d c( d) c | \break
+        % 30
+        h4. r8 r8 h |
+        % 31
+        c4.( c4) c8 |
+        % 32
+        c4. e4. |
+        % 33
+        f4. r8 r8 d8 | \break
+        % 34
+        d4 e8 f4 d8 |
+        % 35
+        e4. r4. |
+        % 36
+        r2. |
+        % 37
+        r8 r8 e'8 e4 d8 | \break
+        % 38
+        c( h) a gis( fis) e |
+        % 39
+        a4. e4. |
+        % 40
+        a,4 a'8 fis( e) d |
+        % 41
+        g,4 g8 g4 g8 | \break
+        % 42
+        a4 a8 h4 h8 |
+        % 43
+        e4. dis4. |
+        % 44
+        e4. d!4. |
+        % 45
+        g,4. r8 r8 g | \break
+        % 46
+        a4. h4. |
+        % 47
+        e2. |
+        \compressMMRests {
+            R2.*4
+        }
+        % 52
+        r4. r8 r8 a, | \break
+        % 53
+        d( e) f e( d) e |
+        % 54
+        a,4 a8 a4 e'8 |
+        % 55
+        c4 a8 gis4 e'8 | \break
+        % 56
+        a,4.( a4) e'8 |
+        % 57
+        a,4.( a4) e'8 |
+        % 58
+        a,4.( a4) gis8 |
+        % 59
+        a4 d8 e4 e8 | \break
+        % 60
+        a4 h8 c4 gis8 |
+        % 61
+        a4 d,8 e4 e,8 |
+        % 62
+        a4.( a4)
     }
-    % 52
-    r4. r8 r8 a, | \break
-    % 53
-    d( e) f e( d) e |
-    % 54
-    a,4 a8 a4 e'8 |
-    % 55
-    c4 a8 gis4 e'8 | \break
-    % 56
-    a,4.( a4) e'8 |
-    % 57
-    a,4.( a4) e'8 |
-    % 58
-    a,4.( a4) gis8 |
-    % 59
-    a4 d8 e4 e8 | \break
-    % 60
-    a4 h8 c4 gis8 |
-    % 61
-    a4 d,8 e4 e,8 |
-    % 62
-    a4.( a4) \bar "|."
 }
