@@ -1,8 +1,8 @@
 \version "2.24.1"
 
-\include "boismortier-vcl1.ly"
-\include "boismortier-vcl2.ly"
-\include "boismortier-vcl3.ly"
+\include "boismortier-notes-vcl1.ly"
+\include "boismortier-notes-vcl2.ly"
+\include "boismortier-notes-vcl3.ly"
 
 \book {
     \paper {
