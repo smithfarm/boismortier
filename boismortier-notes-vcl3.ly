@@ -70,7 +70,6 @@ vclThreeMvtOne = \relative {
 }
 
 vclThreeMvtTwo = \relative {
-    \set Score.barNumberVisibility = #all-bar-numbers-visible
     \time 3/4
     \clef bass
     \key c \major

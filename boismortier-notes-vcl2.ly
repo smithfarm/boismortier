@@ -76,7 +76,6 @@ vclTwoMvtOne = \relative {
 }
 
 vclTwoMvtTwo = \relative {
-    \set Score.barNumberVisibility = #all-bar-numbers-visible
     \time 3/4
     \clef bass
     \key c \major
@@ -171,7 +170,6 @@ vclTwoMvtTwo = \relative {
 }
 
 vclTwoMvtThree = \relative {
-    \set Score.barNumberVisibility = #all-bar-numbers-visible
     \clef bass
     \time 3/2
     \key c \major
@@ -231,7 +229,6 @@ vclTwoMvtThree = \relative {
 }
 
 vclTwoMvtFour = \relative {
-    \set Score.barNumberVisibility = #all-bar-numbers-visible
     \time 6/8
     \key c \major
     \repeat volta 2 {
