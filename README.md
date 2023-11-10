@@ -153,7 +153,7 @@ musical notes (the notes might occupy several lines, not just one).
 A whole note has a length of 1, a half note 2, a quarter note 4, an eighth note
 8, etc.
 
-A dotted note is signified by adding a dot: e.g. 1., 2., 4., 8.
+A dotted note is signified by adding a dot: e.g. `1.`, `2.`, `4.`, `8.`, etc.
 
 For a series of notes of the same duration, you only need specify the duration
 of the first note of the series. For example:
