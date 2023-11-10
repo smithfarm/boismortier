@@ -46,13 +46,13 @@ vclOneMvtOne = \relative {
         % 17
         r8 d16 c d4 r8 d16 c d8 e16 d |
         % 18
-        c8 h16 c a8 h gis\mordent 
+        c8 h16 c a8 h h\mordent
         \clef bass
-        e' e d |
+        e e d |
         % 19
         d c c h h a a g |
         % 20
-        fis g fis8.\trill e16 e8 e'( e16) f e f |
+        fis g fis8.\trill e16 e8 e'( e16) f d f |
         % 21
         cis8\mordent a, cis a d d'( d16) e c d |
         % 22

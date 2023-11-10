@@ -3,7 +3,7 @@
 
 vclTwoMvtOne = \relative {
     \time 4/4
-    \key c \major
+    \key a \minor
     \repeat volta 2 {
         % 1
         \clef bass
@@ -78,7 +78,7 @@ vclTwoMvtOne = \relative {
 vclTwoMvtTwo = \relative {
     \time 3/4
     \clef bass
-    \key c \major
+    \key a \minor
     \repeat volta 2 {
         \partial 4 r4 |
         % 1
@@ -96,7 +96,7 @@ vclTwoMvtTwo = \relative {
         % 7
         fis g fis e dis fis |
         % 8
-        e gis e fis g4 |
+        e dis e fis g4 |
         % 9
         fis8\mordent e dis4.\trill e8 |
         % 10
@@ -172,7 +172,7 @@ vclTwoMvtTwo = \relative {
 vclTwoMvtThree = \relative {
     \clef bass
     \time 3/2
-    \key c \major
+    \key a \minor
     \partial 2 r2 |
     % 1
     r1. |
@@ -230,7 +230,7 @@ vclTwoMvtThree = \relative {
 
 vclTwoMvtFour = \relative {
     \time 6/8
-    \key c \major
+    \key a \minor
     \repeat volta 2 {
         \clef bass
         \partial 8 r8 |

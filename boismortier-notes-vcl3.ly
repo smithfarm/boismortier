@@ -3,7 +3,7 @@
 
 vclThreeMvtOne = \relative {
     \time 4/4
-    \key c \major
+    \key a \minor
     \repeat volta 2 {
         \clef bass
         \compressMMRests {
@@ -12,7 +12,7 @@ vclThreeMvtOne = \relative {
         % 3
         a,4 e'4 c16 d e8 a, e' |
         % 4
-        a4 gis\trill a8 a, g' g |
+        a4 gis\trill a8 a, gis' gis |
         % 5
         a d, e e, a a' g! f |
         % 6
@@ -57,9 +57,9 @@ vclThreeMvtOne = \relative {
         % 25
         a d e e, a4 r8 gis'8 |
         % 26
-        a gis a gis a a, r g' |
+        a gis a gis a a, r gis' |
         % 27
-        a h16 a gis8\mordent fis16 gis a8 his16 a gis8\mordent fis16 g |
+        a h16 a gis8\mordent fis16 gis a8 h16 a gis8\mordent fis16 gis |
         % 28
         a8 a gis a e d c a |
         % 29
@@ -72,7 +72,7 @@ vclThreeMvtOne = \relative {
 vclThreeMvtTwo = \relative {
     \time 3/4
     \clef bass
-    \key c \major
+    \key a \minor
     \repeat volta 2 {
         \partial 4 r8. a16 |
         % 1
@@ -166,7 +166,7 @@ vclThreeMvtTwo = \relative {
 vclThreeMvtThree = \relative {
     \clef bass
     \time 3/2
-    \key c \major
+    \key a \minor
     \partial 2 r2 |
     \compressMMRests {
         R1.*3
@@ -233,7 +233,7 @@ vclThreeMvtThree = \relative {
 
 vclThreeMvtFour = \relative {
     \time 6/8
-    \key c \major
+    \key a \minor
     \repeat volta 2 {
         \clef bass
         \partial 8 r8 |
