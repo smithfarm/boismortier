@@ -182,6 +182,16 @@ write:
 This is because the compiler will otherwise default to going down a fourth from
 the a to the e.
 
+### Measures (bars)
+
+A bar line is denoted by a `|`.
+
+It's good to realize that Lilypond does not require bar lines in its source
+code files. However, it's in your best interests to include them because then
+Lilypond will tell you when a bar contains less, or more, notes than expected
+according to the time signature. (This is the most common error encountered
+when entering musical notes.)
+
 ### Partial measures
 
 Especially in French music, partial measures are used. A partial measure is
