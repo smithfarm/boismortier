@@ -5,16 +5,7 @@
 \include "boismortier-notes-vcl3.ly"
 
 \book {
-    \paper {
-        indent = 3.0\cm
-        ragged-bottom = "#t"
-        left-margin = 2.0\cm
-    }
-    \header {
-        title = "Sonate en trio No. 6 (Op. 7) for three flutes"
-        subtitle = "transcribed for three cellos"
-        composer = "Josef Bodin de Boismortier (1689-1755)"
-    }
+    \include "boismortier-paper.ly"
     \bookpart {
         \score {
             \header {
