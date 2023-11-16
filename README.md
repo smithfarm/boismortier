@@ -229,3 +229,28 @@ An appoggiatura is given like so:
     \appoggiatura a8 g2
 
 This denotes an eighth-note appogiatura "a" preceding a half-note "g".
+
+### Dynamics
+
+Dynamics can be indicated under a given note by appending, e.g., `\p`, `\f` to the note.
+
+### Annotations above and below staff
+
+Arbitrary text can be written above or below the staff, starting at a given note, by appending:
+
+    ^"arbitrary text"
+
+or
+
+    _"arbitrary text"
+
+to the note, for above staff or below staff, respectively.
+
+### Triplets
+
+Triplets (or, more generally, tuplets) can be achieved using `\tuplet`. Here is
+a triplet of three sixteenth notes occupying the duration of two sixteenth
+notes in the original meter (hence "3/2"):
+
+    \tuplet 3/2 { gis16 gis gis }
+
